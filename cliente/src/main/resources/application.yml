@@ -15,3 +15,7 @@ spring:
     console:
       enabled: true
       path: /h2
+
+server:
+  error:
+    include-message: always
